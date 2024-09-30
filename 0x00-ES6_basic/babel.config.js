@@ -1,11 +1,11 @@
 module.exports = {
-  // Presets define the set of plugins used to transpile your code
+  // todos plugins
   presets: [
-    // Use the '@babel/preset-env' preset for transpiling modern JavaScript features
+    // passando labels
     [
       '@babel/preset-env',
       {
-        // Set the target environment to the current version of Node.js
+        // preparando targets
         targets: {
           node: 'current',
         },
